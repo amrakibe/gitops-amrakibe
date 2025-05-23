@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/amrakibe/gitops-amrakibe
+    repoURL: https://github.com/amrakibe/gitops-amrakibe.git
     targetRevision: HEAD
     path: app
   destination:
