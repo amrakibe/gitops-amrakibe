@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/amrakibe/gitops-amrakibe.git
     targetRevision: HEAD
-    path: app
+    path: argocd
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
