@@ -10,8 +10,6 @@ spec:
       targetPort: 8888
   type: ClusterIP
 
----
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -33,3 +31,5 @@ spec:
           image: wil42/playground:v1
           ports:
             - containerPort: 8888
+
+# test
